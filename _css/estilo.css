@@ -1,0 +1,52 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+section .logo {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    background-color: blue;
+}
+section .cabecalho {
+    grid-column: 2/span 2;
+    grid-row: 1/span 1;
+    background-color: chartreuse;
+}
+section .busca {
+    grid-column: 1/span 3;
+    grid-row: 2/span 1;
+    background-color: chartreuse;
+}
+section .links {
+    grid-column: 1/span 1;
+    grid-row: 3/span 2;
+    background-color: chartreuse;
+}
+section .cont1 {
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+    background-color: chartreuse;
+}
+section .cont2 {
+    grid-column: 3/span 1;
+    grid-row: 3/span 1;
+    background-color: chartreuse;
+}
+section .cont3 {
+    grid-column: 2/span 1;
+    grid-row: 4/span 1;
+    background-color: chartreuse;
+}
+section .cont4 {
+    grid-column: 3/span 1;
+    grid-row: 4/span 1;
+    background-color: chartreuse;
+}
+section .rodape {
+    grid-column: 1/span 3;
+    grid-row: 5/span 1;
+    background-color: chartreuse;
+}
+
